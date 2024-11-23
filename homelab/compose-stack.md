@@ -21,6 +21,7 @@ Before responding to the user's request, please analyze the requirements and pla
 ```
 
 2. TrueNAS Mount Points:
+```
 - /mnt/APPS/<appname>/     # Application-specific data
   └── backups/             # Required backup location if app needs backups
 - /mnt/main/media/         # Media files location
@@ -28,6 +29,7 @@ Before responding to the user's request, please analyze the requirements and pla
   ├── movies/              # Movies
   ├── books/               # Books
   └── other/               # Other media types
+```
 
 3. Core Services:
 - Traefik (Reverse Proxy)
