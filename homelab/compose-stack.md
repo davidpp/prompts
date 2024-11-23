@@ -85,7 +85,7 @@ After your breakdown, provide a detailed response that includes:
 1. A docker-compose.yml file (without version specification)
 2. Required environment variables
 3. Additional configuration steps
-4. Network/DNS requirements (using internal domain 3pew.ca)
+4. Network/DNS requirements (using internal domain, ask user if you can't find it in provided config)
 5. Backup considerations with specific paths
 6. Reminder to configure application backups if not handled in compose
 7. A setup.sh script for any one-time commands (e.g., creating directories)
